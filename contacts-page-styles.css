@@ -1,0 +1,88 @@
+.body{
+    box-sizing: border-box;
+    position: relative;
+}
+
+.top-nav{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.top-nav-left{
+    padding: 12px;
+    flex: 6;
+    margin-left: 34px;
+}
+
+.top-nav-right{
+    padding: 12px;
+    flex: 2;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 28px;
+}
+
+.top-nav-right li{
+    margin-left: 12px;
+}
+
+.top-nav-right li:hover{
+    padding: 12px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.below-top-nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(34, 49, 61);
+    color: white;
+    width: 90%;
+    padding: 48px;
+    margin-top: 22px;
+    margin-left: 28px;
+    border-radius: 4px;
+    display: flex;
+}
+
+.below-top-nav h2{
+    margin-top: 12%;
+    text-shadow: 12px;
+    border-right: 4px solid wheat;
+    border-right-style: groove;
+    margin-right: 18px;
+}
+
+.body-below{
+    padding: 12%;
+    font-size: 20%;
+    margin-top: 12%;
+}
+
+.div-contact{
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 10%;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    background-color: rgb(243, 234, 234);
+}
+
+.contact-info{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    margin-left: 30%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10%;
+    border-radius: 8px;
+}
+
+.contact-info h2{
+    margin-top: 12%;
+}

@@ -1,0 +1,117 @@
+.boby{
+    position: relative;
+}
+.top-Header{
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.header-right{
+    margin-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.header-left{
+    margin-left: 850px;
+    margin-top: 28px;
+}
+
+.header-left a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-left a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.body-news{
+    width: 70%;
+    background-color: aliceblue;
+    padding: 28px;
+    margin-top: 28px;
+    margin-left: 28px;
+    display: inline-block;
+}
+
+.news-tittle{
+    background-color: white;
+    padding: 2px 12px 2px 28px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.news-body{
+    background-color: white;
+    padding: 12px 26px 12px 26px;
+    margin-top: 12px;
+    font-size: 24px;
+    font-family: monospace;
+    width: fit-content;
+    
+}
+
+.body-right{
+    padding: 18px;
+    background-color: darkgray;
+    position: absolute;
+    left: 1039px;
+    top: 120px;
+    right: 18px;
+}
+
+.topbody-right{
+    text-align: center;
+}
+
+.list-body li{
+    padding: 12px;
+    list-style: none;
+    margin-top: 48px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list-body li:hover{
+    background-color: aliceblue;
+    padding: 12px;
+    color:black;
+    animation: 10ms;
+}
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 28px;
+    height: fit-content;
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-right: 16px;
+}
+
+.footer li{
+    list-style: none;
+    margin-top: 18px;
+    padding: 28px;
+}
+.footer li:hover{
+    padding: 28px;
+    color: black;
+    background-color: aliceblue;
+}
+.footer-left{
+    float: left;
+    margin-left: 328px;
+}
+
+.footer-right{
+    margin-left: 828px;
+    margin-right: 280px;
+}
